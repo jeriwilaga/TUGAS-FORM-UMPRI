@@ -1,0 +1,65 @@
+h5{
+    text-align: center;
+    line-height: 1.0;
+    font-weight: bold;
+}
+.pert{
+    font-style: italic;
+    font-size: 15px;
+    padding-bottom: 10px;
+}
+.content{
+    padding-top: 20px;
+}
+b{
+    padding: 10px;
+}
+.form-group.row{
+    padding-top: 10px;
+}
+.logo{
+    text-align: center;
+}
+.titl{
+    text-align: center;
+}
+.jen{
+    font-size: small;
+}
+h4{
+    padding-top: 3%;
+    font-size: 20px;
+}
+.alamt{
+    line-height: 1.5;
+    font-size: small;
+    font-style: italic;
+    color: rgb(180, 180, 180);
+
+}
+.footer{
+    padding: 20px;
+    text-align: center;
+    background-color: rgb(0, 72, 187);
+    color: #fff;
+    text-decoration: none;
+}
+a:link {
+    text-decoration: none;
+    color: #fff;
+}
+
+a:visited {
+    text-decoration: none;
+    color: #fff;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #fff;
+}
+
+a:active {
+    text-decoration: none;
+    color: #fff;
+}

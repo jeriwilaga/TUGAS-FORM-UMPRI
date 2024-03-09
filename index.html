@@ -1,0 +1,995 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Tugas Membuat Form | Jeri Wilaga</title>
+    
+    <link rel="icon" type="image/x-icon" href="https://blogger.googleusercontent.com/img/a/AVvXsEiZA7YB0t5oNnmhFPdXhidTn3EyLx14qFIgw08vVYg_UOUMO4B1Zctml5thsrUycJwsQRkL_hYZ1L7xlcVwUAlYWy7MUYOFIEKUm-FwpQkVkn4l-3694Yf6qahT8qO01TvbytyyXiqlwYLxt6I_rxq_xdbgVEWwQ2pO3Z-gkwLnnOgSO25bJ4Vkr1nyayc">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    
+    <link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+  <body>
+    <div class="container">
+        <div class="content">
+        
+    <table class="table table-bordered border-secondary">
+    <tr class="logo">
+      <th rowspan="7" width="200px"style="padding-top:20px;"><img src="https://blogger.googleusercontent.com/img/a/AVvXsEiZA7YB0t5oNnmhFPdXhidTn3EyLx14qFIgw08vVYg_UOUMO4B1Zctml5thsrUycJwsQRkL_hYZ1L7xlcVwUAlYWy7MUYOFIEKUm-FwpQkVkn4l-3694Yf6qahT8qO01TvbytyyXiqlwYLxt6I_rxq_xdbgVEWwQ2pO3Z-gkwLnnOgSO25bJ4Vkr1nyayc" width="120px"></th>
+    </tr>
+    <tr class="titl">
+      <th rowspan="5" width="600px" style="padding-top: 5%;"><h4>UNIVERSITAS MUHAMMADIYAH PRINGSEWU LAMPUNG</h4> </th>
+    </tr>
+    <tr>
+      <td >No. Dokumen :FRM-BKM/00/15/018</td>
+    </tr>
+    <tr>
+      <td >Revisi : 00</td>
+    </tr>
+    <tr>
+      <td >Tgl. Berlaku : 12 Oktober 2020
+      </td>
+    </tr>
+    <tr>
+      <td >Halaman : 2/3</td>
+    </tr>
+      </table>
+
+
+      
+      <h5>FORMULIR PENDAFTARAN MAHASISWA BARU</h5>
+      <h5>UNIVERSITAS MUHAMMADIYAH PRINGSEWU</h5>
+      <h5>TAHUN AKADEMIK 2020/2021</h5>
+      <br>
+      <div class="pert">
+        <b>Petunjuk Pengisian :</b><br>
+        <ol>
+          <li>Wajib diisi dengan lengkap menggunakan huruf Kapital, beri tanda centang pada kotak pilihan </li>
+          <li>Isi biodata dengan rapi dan teliti, jangan ada coretan, pastikan nama, tempat dan tanggal lahir sama dengan ijazah sebelumnya</li>
+          <li>Perhatikan tanda baca (titik, koma, spasi, tanda petik), untuk spasi beri jarak satu kotak</li>
+          <li>Lampirkan fotokopi Kartu Keluarga (KK), fotokopi Ijazah dan Transkrip / SKHUN Legalisir cap basah,
+              <br>Surat Pernyataan Bermaterai dan Pas Foto Warna Terbaru ukuran 3 x 4 cm</i> 
+        </ol>
+    </div>
+
+
+   
+          <div class="row">
+              <div class="col-12">
+                  <form>
+                    <div class="form-group row">
+                      <b>I.BIODATA PRIBADI</b>
+                     <label for="nama" class="col-sm-3 col-form-label">Nomor Pendaftaran</label>
+                      <div class="col-auto">
+                        <input type="password" id="inputPassword6" class="form-control" aria-describedby="passwordHelpInline">
+                      </div>
+                        <div class="col-auto">
+                          <span id="passwordHelpInline" class="form-text">
+                            *Diisi Oleh Petugas
+                          </span>
+                        </div>
+                    </div>  
+                      <div class="form-group row">
+                        <label for="alamat" class="col-sm-3 col-form-label">Program Studi </label>
+                        <div class="col-sm-9">
+                        <textarea type="text" class="form-control" id="alamat" ></textarea>
+                      </div>
+                      </div>
+                      <div class="form-group row">
+                        <label for="alamat" class="col-sm-3 col-form-label">Nama Lengkap </label>
+                        <div class="col-sm-9">
+                        <input type="text" class="form-control" id="alamat" >
+                      </div>
+                      </div>
+                      <div class="form-group row">
+                        <label for="alamat" class="col-sm-3 col-form-label">Tempat Lahir</label>
+                        <div class="col-sm-6">
+                        <input type="text" class="form-control" id="alamat" >
+                      </div>
+                      </div>
+                      <div class="form-group row">
+                        <label for="alamat" class="col-sm-3 col-form-label">Tanggal Lahir</label>
+                        <div class="col-sm-6">
+                        <input type="date" class="form-control" id="alamat" >
+                      </div>
+                      </div>
+                      <div class="form-group row">
+                        <label for="alamat" class="col-sm-3 col-form-label">Jenis Kelamin</label>
+                        <div class="col-sm-3">
+                          <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+                            <label class="form-check-label" for="inlineCheckbox1">Laki-Laki</label>
+                          </div>
+                          <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+                            <label class="form-check-label" for="inlineCheckbox2">Perempuan</label>
+                          </div>
+                      </div>
+                      </div>
+                      <div class="form-group row">
+                        <label for="alamat" class="col-sm-3 col-form-label">Agama</label>
+                        <div class="col-sm-6">
+                          <select class="form-select" aria-label="Default select example">
+                            <option value="1">Islam</option>
+                            <option value="2">Konghuchu</option>
+                            <option value="3">Kristen</option>
+                          </select>
+                      </div>
+                      </div>
+                      <div class="form-group row">
+                        <label for="alamat" class="col-sm-3 col-form-label">NIK <i>(Nomor KTP)</i></label>
+                        <div class="col-sm-4">
+                        <input type="number" class="form-control" id="alamat" >
+                      </div>
+                      </div>
+                      <div class="form-group row">
+                        <label for="alamat" class="col-sm-3 col-form-label">Alamat Lengkap<i>(diisi lengkap)</i></label>
+                        <div class="col-sm-9">
+                          <textarea type="text" class="form-control" id="alamat" ></textarea>
+                        
+                          <div class="alamt">
+                            <a>Format Penulisan :</a><br>
+                        <a>Jalan ................................................................................................................</a><a>   Dusun ....................................................................................</a>
+                        <br>
+                        <a>RT. ............................</a><a>    RW ............................</a><a>Kelurahan/Pekon. ............................................................</a>
+                        <br>
+                        <a>Kecamatan.       ..................................................................................................................................................................</a>
+                        <br>
+                        <a>Kabupaten/Kota.  .....................................................................................................................................................................................</a>
+                        <br>
+                        <a>Provinsi ...............................................</a><a>    Kode Post ..........................</a>
+                        </div>
+                      </div>
+                      </div>
+                      <br>
+                      <div class="form-group row">
+                        <label for="alamat" class="col-sm-3 col-form-label">Jenis Tinggal </label>
+                        <div class="col-sm-9">
+                          <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+                            <label class="form-check-label" for="inlineCheckbox1">Bersama Orang Tua</label>
+                          </div>
+                          <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+                            <label class="form-check-label" for="inlineCheckbox2">Kost</label>
+                          </div>
+                          <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+                            <label class="form-check-label" for="inlineCheckbox1">Wali</label>
+                          </div>
+                          <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+                            <label class="form-check-label" for="inlineCheckbox2">Asrama </label>
+                          </div>
+                          <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+                            <label class="form-check-label" for="inlineCheckbox1">Panti Asuhan</label>
+                          </div>
+                          <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+                            <label class="form-check-label" for="inlineCheckbox2">Lainnya </label>
+                          </div>
+                      </div>
+                      </div>
+                      <div class="form-group row">
+                        <label for="alamat" class="col-sm-3 col-form-label">Nomor Telepon</label>
+                        <div class="col-sm-4">
+                        <input type="number" class="form-control" id="alamat" >
+                      </div>
+                      </div>
+                      <div class="form-group row">
+                        <label for="alamat" class="col-sm-3 col-form-label">Nomor Handphone (HP)</label>
+                        <div class="col-sm-4">
+                        <input type="number" class="form-control" id="alamat" >
+                      </div>
+                      </div>
+                      <div class="form-group row">
+                        <label for="alamat" class="col-sm-3 col-form-label">Email</label>
+                        <div class="col-sm-4">
+                        <input type="email" class="form-control" id="alamat" >
+                      </div>
+                      </div>
+                      <div class="form-group row">
+                        <label for="alamat" class="col-sm-3 col-form-label">Asal Pendidikan</label>
+                        <div class="col-sm-9">
+                        <textarea type="text" class="form-control" id="alamat" ></textarea>
+                      </div>
+                      </div>
+                      <div class="form-group row">
+                        <label for="alamat" class="col-sm-3 col-form-label">Nomor Induk Siswa Nasional (NISN) atau<br>
+                          Nomor Induk Mahasiswa (NIM) Asal Pendidikan</label>
+                        <div class="col-sm-5 ">
+                        <input type="number" class="form-control" id="alamat" >
+                      </div>
+                      </div>
+                      <div class="form-group row">
+                       <label for="nama" class="col-sm-3 col-form-label">Tahun Lulus</label>
+                        <div class="col-auto">
+                          <input type="password" id="inputPassword6" class="form-control" aria-describedby="passwordHelpInline">
+                        </div>
+                          <div class="col-auto">
+                            <label for="nama" class="col-sm-12 col-form-label">No. Seri Ijazah</label>
+                          </div>
+                          <div class="col-auto">
+                            <input type="password" id="inputPassword6" class="form-control" aria-describedby="passwordHelpInline">
+                          </div>
+                      </div>  
+                      <br>
+                   </form>
+                   </div>
+                  </div>
+                   <form>
+                       <div class="form-group row">
+                          <b>II. Data Orang Tua/Wali</b>
+                             <label for="alamat" class="col-sm-3 col-form-label">Nama Ayah</label>
+                                <div class="col-sm-9">
+                                  <input type="text" class="form-control" id="alamat" >
+                                 </div>
+                              </div>
+                            <div class="form-group row">
+                              <label for="alamat" class="col-sm-3 col-form-label">Tempat Lahir</label>
+                              <div class="col-sm-6">
+                              <input type="text" class="form-control" id="alamat" >
+                            </div>
+                            </div>
+                            <div class="form-group row">
+                              <label for="alamat" class="col-sm-3 col-form-label">Tanggal Lahir</label>
+                              <div class="col-sm-6">
+                              <input type="date" class="form-control" id="alamat" >
+                            </div>
+                            </div>
+                            <div class="form-group row">
+                              <label for="alamat" class="col-sm-3 col-form-label">Pendidikan Terakhir</label>
+                              <div class="col-sm-9">
+                              <textarea type="text" class="form-control" id="alamat" ></textarea>
+                            </div>
+                            </div>
+                            <div class="form-group row">
+                              <label for="alamat" class="col-sm-3 col-form-label">Pekerjaan Ayah </label>
+                              <div class="col-sm-9">
+                                <table>
+                                  <tr>
+                                    <td>
+                                <div class="form-check form-check-inline">
+                                  <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+                                  <label class="form-check-label" for="inlineCheckbox1">Tidak Bekerja       </label>
+                                </div>
+                              </td>
+                              <td>
+                                <div class="form-check form-check-inline">
+                                  <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+                                  <label class="form-check-label" for="inlineCheckbox2">Karyawan Swasta</label>
+                                </div>
+                              </td>
+                              <td>
+                                <div class="form-check form-check-inline">
+                                  <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+                                  <label class="form-check-label" for="inlineCheckbox1">Buruh</label>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                              <div class="col-sm-9">
+                              <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+                                <label class="form-check-label" for="inlineCheckbox2">Nelayan  </label>
+                              </div>
+                            </td>
+                            <td>
+                              <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+                                <label class="form-check-label" for="inlineCheckbox1">Pedagang Kecil </label>
+                              </div>
+                            </td>
+                            <td>
+                              <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+                                <label class="form-check-label" for="inlineCheckbox2">Pensiunan</label>
+                              </div>
+                            </div>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>
+                            <div class="col-sm-9">
+                              <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+                                <label class="form-check-label" for="inlineCheckbox2">Petani </label>
+                              </div>
+                            </td>
+                            <td>
+                              <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+                                <label class="form-check-label" for="inlineCheckbox1">Pedagang Besar</label>
+                              </div>
+                            </td>
+                            <td>
+                              <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+                                <label class="form-check-label" for="inlineCheckbox2">Sudah Meninggal</label>
+                              </div>
+                            </td>
+                          </div>
+                        </tr>
+                        <tr>
+                          <td>
+                          <div class="col-sm-9">
+                            <div class="form-check form-check-inline">
+                              <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+                              <label class="form-check-label" for="inlineCheckbox2">Peternak</label>
+                            </div>
+                          </td>
+                          <td>
+                            <div class="form-check form-check-inline">
+                              <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+                              <label class="form-check-label" for="inlineCheckbox1">Wiraswasta</label>
+                            </div>
+                          </td>
+                          <td>
+                            <div class="form-check form-check-inline">
+                              <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+                              <label class="form-check-label" for="inlineCheckbox2">Wirausaha</label>
+                            </div>
+                          </td>
+                        </div>
+                      </tr>
+                      <tr>
+                        <td>
+                        <div class="col-sm-9">
+                          <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+                            <label class="form-check-label" for="inlineCheckbox2">PNS</label>
+                          </div>
+                        </td>
+                        <td>
+                          <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+                            <label class="form-check-label" for="inlineCheckbox1">TNI/Polri</label>
+                          </div>
+                        </td>
+                        <td>
+                          <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+                            <label class="form-check-label" for="inlineCheckbox2">Lainnya</label>
+                          </div>
+                        </td>
+                      </div>
+                    </tr>
+                      </table>  
+                        </div>
+
+                            <div class="form-group row">
+                              <label for="alamat" class="col-sm-3 col-form-label">Penghasilan Ayah  </label>
+                            
+                              <div class="col-sm-9">
+                                <table>
+                                    <td>
+                                  <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+                                    <label class="form-check-label" for="inlineCheckbox1">Kurang dari Rp.500.000</label>
+                                  </div>
+                                  <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+                                    <label class="form-check-label" for="inlineCheckbox2">Rp. 2.000.000 - Rp. 4.999.999</label>
+                                  </div>
+                                <div class="col-sm-9">
+                                <div class="form-check form-check-inline">
+                                  <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+                                  <label class="form-check-label" for="inlineCheckbox2">Rp. 500.000 - Rp. 999.999</label>
+                                </div>
+                              </td>
+                            <td>
+                                <div class="form-check form-check-inline">
+                                  <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+                                  <label class="form-check-label" for="inlineCheckbox1">Rp. 5.000.000 - Rp. 20.000.000</label>
+                                </div>
+                                <div class="col-sm-9">
+                                  <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+                                    <label class="form-check-label" for="inlineCheckbox2">Rp.1.000.000 - Rp.1.999.999</label>
+                                  </div>
+                                  <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+                                    <label class="form-check-label" for="inlineCheckbox1">Lebih dari Rp. 20.000.000</label>
+                                  </div>
+                                </td>
+                            
+                              </div>
+                            </table>
+                              </div>
+                              </div>
+                            </div>
+                          </div>
+                              <div class="form-group row">
+                                <label for="alamat" class="col-sm-3 col-form-label">Nomor Telepon Ayah</label>
+                                <div class="col-sm-6">
+                                <input type="number" class="form-control" id="alamat" >
+                              </div>
+                              </div>
+                              <br>
+                              <div class="form-group row">
+                                <label for="alamat" class="col-sm-3 col-form-label">Nama Ibu Kandung</label>
+                                <div class="col-sm-9">
+                                <input type="text" class="form-control" id="alamat" >
+                              </div>
+                              </div>
+                              <div class="form-group row">
+                                <label for="alamat" class="col-sm-3 col-form-label">Tempat Lahir</label>
+                                <div class="col-sm-6">
+                                <input type="text" class="form-control" id="alamat" >
+                              </div>
+                              </div>
+                              <div class="form-group row">
+                                <label for="alamat" class="col-sm-3 col-form-label">Tanggal Lahir</label>
+                                <div class="col-sm-6">
+                                <input type="date" class="form-control" id="alamat" >
+                              </div>
+                              </div>
+                              <div class="form-group row">
+                                <label for="alamat" class="col-sm-3 col-form-label">Pendidikan Terakhir</label>
+                                <div class="col-sm-9">
+                                <textarea type="text" class="form-control" id="alamat" ></textarea>
+                              </div>
+                              </div>
+                              <div class="form-group row">
+                                <label for="alamat" class="col-sm-3 col-form-label">Pekerjaan Ibu</label>
+                                <div class="col-sm-9">
+                                  <table>
+                                    <tr>
+                                      <td>
+                                  <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+                                    <label class="form-check-label" for="inlineCheckbox1">Tidak Bekerja       </label>
+                                  </div>
+                                </td>
+                                <td>
+                                  <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+                                    <label class="form-check-label" for="inlineCheckbox2">Karyawan Swasta</label>
+                                  </div>
+                                </td>
+                                <td>
+                                  <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+                                    <label class="form-check-label" for="inlineCheckbox1">Buruh</label>
+                                  </div>
+                                </td>
+                              </tr>
+                              <tr>
+                                <td>
+                                <div class="col-sm-9">
+                                <div class="form-check form-check-inline">
+                                  <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+                                  <label class="form-check-label" for="inlineCheckbox2">Nelayan  </label>
+                                </div>
+                              </td>
+                              <td>
+                                <div class="form-check form-check-inline">
+                                  <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+                                  <label class="form-check-label" for="inlineCheckbox1">Pedagang Kecil </label>
+                                </div>
+                              </td>
+                              <td>
+                                <div class="form-check form-check-inline">
+                                  <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+                                  <label class="form-check-label" for="inlineCheckbox2">Pensiunan</label>
+                                </div>
+                              </div>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td>
+                              <div class="col-sm-9">
+                                <div class="form-check form-check-inline">
+                                  <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+                                  <label class="form-check-label" for="inlineCheckbox2">Petani </label>
+                                </div>
+                              </td>
+                              <td>
+                                <div class="form-check form-check-inline">
+                                  <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+                                  <label class="form-check-label" for="inlineCheckbox1">Pedagang Besar</label>
+                                </div>
+                              </td>
+                              <td>
+                                <div class="form-check form-check-inline">
+                                  <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+                                  <label class="form-check-label" for="inlineCheckbox2">Sudah Meninggal</label>
+                                </div>
+                              </td>
+                            </div>
+                          </tr>
+                          <tr>
+                            <td>
+                            <div class="col-sm-9">
+                              <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+                                <label class="form-check-label" for="inlineCheckbox2">Peternak</label>
+                              </div>
+                            </td>
+                            <td>
+                              <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+                                <label class="form-check-label" for="inlineCheckbox1">Wiraswasta</label>
+                              </div>
+                            </td>
+                            <td>
+                              <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+                                <label class="form-check-label" for="inlineCheckbox2">Wirausaha</label>
+                              </div>
+                            </td>
+                          </div>
+                        </tr>
+                        <tr>
+                          <td>
+                          <div class="col-sm-9">
+                            <div class="form-check form-check-inline">
+                              <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+                              <label class="form-check-label" for="inlineCheckbox2">PNS</label>
+                            </div>
+                          </td>
+                          <td>
+                            <div class="form-check form-check-inline">
+                              <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+                              <label class="form-check-label" for="inlineCheckbox1">TNI/Polri</label>
+                            </div>
+                          </td>
+                          <td>
+                            <div class="form-check form-check-inline">
+                              <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+                              <label class="form-check-label" for="inlineCheckbox2">Lainnya</label>
+                            </div>
+                          </td>
+                        </div>
+                      </tr>
+                        </table>  
+                              </div>
+  
+                              <div class="form-group row">
+                                <label for="alamat" class="col-sm-3 col-form-label">Penghasilan Ibu</label>
+                              
+                                <div class="col-sm-9">
+                                  <table>
+                                      <td>
+                                    <div class="form-check form-check-inline">
+                                      <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+                                      <label class="form-check-label" for="inlineCheckbox1">Kurang dari Rp.500.000</label>
+                                    </div>
+                                    <div class="form-check form-check-inline">
+                                      <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+                                      <label class="form-check-label" for="inlineCheckbox2">Rp. 2.000.000 - Rp. 4.999.999</label>
+                                    </div>
+                                  <div class="col-sm-9">
+                                  <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+                                    <label class="form-check-label" for="inlineCheckbox2">Rp. 500.000 - Rp. 999.999</label>
+                                  </div>
+                                </td>
+                              <td>
+                                  <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+                                    <label class="form-check-label" for="inlineCheckbox1">Rp. 5.000.000 - Rp. 20.000.000</label>
+                                  </div>
+                                  <div class="col-sm-9">
+                                    <div class="form-check form-check-inline">
+                                      <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+                                      <label class="form-check-label" for="inlineCheckbox2">Rp.1.000.000 - Rp.1.999.999</label>
+                                    </div>
+                                    <div class="form-check form-check-inline">
+                                      <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+                                      <label class="form-check-label" for="inlineCheckbox1">Lebih dari Rp. 20.000.000</label>
+                                    </div>
+                                  </td>
+                              
+                                </div>
+                              </table>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="form-group row">
+                              <label for="alamat" class="col-sm-3 col-form-label">Nomor Telepon Ibu</label>
+                              <div class="col-sm-6">
+                              <input type="number" class="form-control" id="alamat" >
+                            </div>
+                            </div>
+                            <br>
+                              <div class="form-group row">
+                                <label for="alamat" class="col-sm-3 col-form-label">Nama Wali</label>
+                                <div class="col-sm-9">
+                                <input type="text" class="form-control" id="alamat" >
+                              </div>
+                              </div>
+                              <div class="form-group row">
+                                <label for="alamat" class="col-sm-3 col-form-label">Tempat Lahir</label>
+                                <div class="col-sm-6">
+                                <input type="text" class="form-control" id="alamat" >
+                              </div>
+                              </div>
+                              <div class="form-group row">
+                                <label for="alamat" class="col-sm-3 col-form-label">Tanggal Lahir</label>
+                                <div class="col-sm-6">
+                                <input type="date" class="form-control" id="alamat" >
+                              </div>
+                              </div>
+                              <div class="form-group row">
+                                <label for="alamat" class="col-sm-3 col-form-label">Pendidikan Terakhir</label>
+                                <div class="col-sm-9">
+                                <textarea type="text" class="form-control" id="alamat" ></textarea>
+                              </div>
+                              </div>
+                              <div class="form-group row">
+                                <label for="alamat" class="col-sm-3 col-form-label">Pekerjaan Wali </label>
+                                <div class="col-sm-9">
+                                    <table>
+                                      <tr>
+                                        <td>
+                                    <div class="form-check form-check-inline">
+                                      <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+                                      <label class="form-check-label" for="inlineCheckbox1">Tidak Bekerja       </label>
+                                    </div>
+                                  </td>
+                                  <td>
+                                    <div class="form-check form-check-inline">
+                                      <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+                                      <label class="form-check-label" for="inlineCheckbox2">Karyawan Swasta</label>
+                                    </div>
+                                  </td>
+                                  <td>
+                                    <div class="form-check form-check-inline">
+                                      <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+                                      <label class="form-check-label" for="inlineCheckbox1">Buruh</label>
+                                    </div>
+                                  </td>
+                                </tr>
+                                <tr>
+                                  <td>
+                                  <div class="col-sm-9">
+                                  <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+                                    <label class="form-check-label" for="inlineCheckbox2">Nelayan  </label>
+                                  </div>
+                                </td>
+                                <td>
+                                  <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+                                    <label class="form-check-label" for="inlineCheckbox1">Pedagang Kecil </label>
+                                  </div>
+                                </td>
+                                <td>
+                                  <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+                                    <label class="form-check-label" for="inlineCheckbox2">Pensiunan</label>
+                                  </div>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <div class="col-sm-9">
+                                  <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+                                    <label class="form-check-label" for="inlineCheckbox2">Petani </label>
+                                  </div>
+                                </td>
+                                <td>
+                                  <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+                                    <label class="form-check-label" for="inlineCheckbox1">Pedagang Besar</label>
+                                  </div>
+                                </td>
+                                <td>
+                                  <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+                                    <label class="form-check-label" for="inlineCheckbox2">Sudah Meninggal</label>
+                                  </div>
+                                </td>
+                              </div>
+                            </tr>
+                            <tr>
+                              <td>
+                              <div class="col-sm-9">
+                                <div class="form-check form-check-inline">
+                                  <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+                                  <label class="form-check-label" for="inlineCheckbox2">Peternak</label>
+                                </div>
+                              </td>
+                              <td>
+                                <div class="form-check form-check-inline">
+                                  <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+                                  <label class="form-check-label" for="inlineCheckbox1">Wiraswasta</label>
+                                </div>
+                              </td>
+                              <td>
+                                <div class="form-check form-check-inline">
+                                  <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+                                  <label class="form-check-label" for="inlineCheckbox2">Wirausaha</label>
+                                </div>
+                              </td>
+                            </div>
+                          </tr>
+                          <tr>
+                            <td>
+                            <div class="col-sm-9">
+                              <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+                                <label class="form-check-label" for="inlineCheckbox2">PNS</label>
+                              </div>
+                            </td>
+                            <td>
+                              <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+                                <label class="form-check-label" for="inlineCheckbox1">TNI/Polri</label>
+                              </div>
+                            </td>
+                            <td>
+                              <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+                                <label class="form-check-label" for="inlineCheckbox2">Lainnya</label>
+                              </div>
+                            </td>
+                          </div>
+                        </tr>
+                          </table>  
+                              </div>
+  
+                              <div class="form-group row">
+                                <label for="alamat" class="col-sm-3 col-form-label">Penghasilan Wali</label>
+                              
+                                <div class="col-sm-9">
+                                  <table>
+                                      <td>
+                                    <div class="form-check form-check-inline">
+                                      <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+                                      <label class="form-check-label" for="inlineCheckbox1">Kurang dari Rp.500.000</label>
+                                    </div>
+                                    <div class="form-check form-check-inline">
+                                      <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+                                      <label class="form-check-label" for="inlineCheckbox2">Rp. 2.000.000 - Rp. 4.999.999</label>
+                                    </div>
+                                  <div class="col-sm-9">
+                                  <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+                                    <label class="form-check-label" for="inlineCheckbox2">Rp. 500.000 - Rp. 999.999</label>
+                                  </div>
+                                </td>
+                              <td>
+                                  <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+                                    <label class="form-check-label" for="inlineCheckbox1">Rp. 5.000.000 - Rp. 20.000.000</label>
+                                  </div>
+                                  <div class="col-sm-9">
+                                    <div class="form-check form-check-inline">
+                                      <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+                                      <label class="form-check-label" for="inlineCheckbox2">Rp.1.000.000 - Rp.1.999.999</label>
+                                    </div>
+                                    <div class="form-check form-check-inline">
+                                      <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+                                      <label class="form-check-label" for="inlineCheckbox1">Lebih dari Rp. 20.000.000</label>
+                                    </div>
+                                  </td>
+                              
+                                </div>
+                              </table>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="form-group row">
+                              <label for="alamat" class="col-sm-3 col-form-label">Nomor Telepon Wali</label>
+                              <div class="col-sm-6">
+                              <input type="number" class="form-control" id="alamat" >
+                            </div>
+                          </div>
+                        <br>
+                      <div class="form-group row">
+                         <b>III. Penanggung Jawab Biaya Pendidikan</b>
+                            <label for="alamat" class="col-sm-3 col-form-label">Nama Penanggung Jawab</label>
+                               <div class="col-sm-9">
+                                 <input type="text" class="form-control" id="alamat" >
+                                </div>
+                             </div>
+                           <div class="form-group row">
+                             <label for="alamat" class="col-sm-3 col-form-label">No Telp Penanggung Jawab</label>
+                             <div class="col-sm-9">
+                             <input type="text" class="form-control" id="alamat" >
+                           </div>
+                           </div>
+                           <div class="form-group row">
+                            <b>IV.Informasi Fisik Calon Mahasiswa</b>
+                             <label for="nama" class="col-sm-3 col-form-label">Tinggi Badan</label>
+                              <div class="col-1">
+                                <input type="password" id="inputPassword6" class="form-control" aria-describedby="passwordHelpInline">
+                              </div>
+                                <div class="col-auto">
+                                  <span id="passwordHelpInline" class="form-text">
+                                    Cm
+                                  </span>
+                                </div>
+                                <div class="col-auto">
+                                  <label for="nama" class="col col-form-label">
+                                    Berat Badan
+                                  </label>
+                                </div>
+                                <div class="col-sm-2">
+                                  <span id="passwordHelpInline" class="form-text">
+                                    <input type="password" id="inputPassword6" class="form-control" aria-describedby="passwordHelpInline">
+                                  </span>
+                                </div>
+                                <div class="col-auto">
+                                  <span id="passwordHelpInline" class="form-text">
+                                    Kg
+                                  </span>
+                                </div>
+                                <div class="col-auto">
+                                  <label for="nama" class="col col-form-label">
+                                    Golongan Darah
+                                  </label>
+                                </div>
+                                <div class="col-sm-2">
+                                  <span id="passwordHelpInline" class="form-text">
+                                    <input type="password" id="inputPassword6" class="form-control" aria-describedby="passwordHelpInline">
+                                  </span>
+                                </div>
+                                <div class="form-group row">
+                                  <label for="alamat" class="col-sm-4 col-form-label">Riwayat Penyakit yang pernah di derita</label>
+                                  <div class="col-sm-8">
+                                  <input type="text" class="form-control" id="alamat" >
+                                </div>
+                            </div>    
+                            <div class="form-group row">
+                              <b>V. Informasi Tambahan</b>
+                              <div class="form-group row">
+                                <label for="alamat" class="col-sm-3 col-form-label">Pekerjaan Wali </label>
+                                <div class="col-sm-9">
+                                    <table>
+                                      <tr>
+                                        <td>
+                                    <div class="form-check form-check-inline">
+                                      <label class="form-check-label" for="inlineCheckbox1">a. Ms. Office</label>
+                                    </div>
+                                  </td>
+                                  <td>
+                                    <div class="form-check form-check-inline">
+                                      <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+                                      <label class="form-check-label" for="inlineCheckbox2">Bisa</label>
+                                    </div>
+                                  </td>
+                                  <td>
+                                    <div class="form-check form-check-inline">
+                                      <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+                                      <label class="form-check-label" for="inlineCheckbox1">Tidak Bisa</label>
+                                    </div>
+                                  </td>
+                                </tr>
+                                <tr>
+                                  
+                                  <div class="col-sm-10">
+                                    <td class="col-sm-5">
+                                  <div class="form-check form-check-inline">
+                                    <label class="form-check-label" for="inlineCheckbox2">b. Internet</label>
+                                  </div>
+                                </td>
+                                <td class="col-sm-5">
+                                  <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+                                    <label class="form-check-label" for="inlineCheckbox1">Bisa </label>
+                                  </div>
+                                </td>
+                                <td>
+                                  <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+                                    <label class="form-check-label" for="inlineCheckbox2">Tidak Bisa</label>
+                                  </div>
+                                </div>
+                              </td>
+                            </tr>
+                            </table>
+                                </div>
+                                <div class="form-group row">
+                                  <b>VI. Kelengkapan Berkas Pendaftaran</b>
+                                   <label for="nama" class="col-sm-3 col-form-label"></label>
+                                     
+                                      <div class="col-auto">
+                                        <br>
+                                       <table class="table table-bordered border-secondary">
+                                        <tbody>
+                                          <tr style="text-align: center;">
+                                          <td rowspan="2" style="padding-top: 5%;">No</td >
+                                          <td rowspan="2" style="padding-top: 5%;">Nama Berkas</td >
+                                          <td >Keterangan</td >
+                                            </tr>
+                                            <tr style="text-align: center;">
+                                              <td >L/BL</td >
+                                            </tr>
+                                          <tr>
+                                            <td style="text-align: center;">1</td>
+                                            <td>Fotocopy Kartu Keluarga (KK) 1 lembar</td>
+                                            <td></td>
+                                          </tr>
+                                          <tr>
+                                            <td style="text-align: center;">2</td>
+                                            <td>Fotocopy Ijazah Terakhir / SKL legalisir cap basah @ 1 rangkap</td>
+                                            <td></td>
+                                          </tr>
+                                          <tr>
+                                            <td style="text-align: center;">3</td>
+                                            <td>Fotocopy Transkrip / SKHUN legalisir cap basah @ 1 rangkap </td>
+                                            <td></td>
+                                          </tr>
+                                          <tr>
+                                            <td style="text-align: center;">4</td>
+                                            <td>Surat Pernyataan Bermaterai  </td>
+                                            <td></td>
+                                          </tr>
+                                          <tr>
+                                            <td style="text-align: center;">5</td>
+                                            <td>Pas Foto Warna terbaru </td>
+                                            <td></td>
+                                          </tr>
+                                        </tbody>
+                                        </table>
+                                      </div>
+                                      </div>
+                                      </div>
+                                      </div>
+                                      </div>
+                                      <div class="row">
+                                        <div class="col-sm-12">
+                                         <p>Apabila berkas diatas belum lengkap, calon mahasiswa bersedia melengkapi kekurangan berkas tersebut pada tgl ……………....…..2019
+                                        Dengan ini saya menyatakan bahwa data yang tercantum diatas adalah benar. Apabila terjadi kesalahan karena data yang saya isi tidak benar, maka
+                                        sepenuhnya menjadi tanggung jawab calon mahasiswa. Demikian penyataan ini saya buat dengan sebenarnya untuk dipergunakan sebagaimana 
+                                          mestinya.
+                                         </p>
+                                        </div>
+                                          </div>
+                                          <div class="row">
+                                            <div class="col">
+                                                Mengetahui,<br>Petugas Pendaftaran
+                                                <br>
+                                                <br>
+                                                <br>
+                                                <br>
+                                                <br>
+                                                <br>
+                                                ..........................................................
+                                                <br>
+                                                <p class="jen"><i>(Nama dan Tanda Tangan Petugas Pendaftaran)</i></p>
+                                            </div>
+                                            <div class="col">
+                                              <div class="card" style="width: 11rem; height:13rem;">
+                                                <div class="card-body">
+                                                  
+                                                  <p class="card-text" style="text-align: center; padding-top:70px;">Pas Foto Warna<br>Terbaru 3X4 cm</p>
+                                                  
+                                                </div>
+                                              </div>
+                                            </div>
+                                            <div class="col">
+                                              Pringsewu,………………………...……2019<br>Pendaftar
+                                              <br>
+                                              <br>
+                                              <br>
+                                              <br>
+                                              <br>
+                                              <br>
+                                              ..........................................................
+                                              <br>
+                                              <p class="jen"><i>(Nama dan Tanda Tangan Pendaftar)</i></p>
+                                            </div>
+                                  </div>
+                        </form>
+                      
+                  </div>      
+                  
+            </div>
+          </div>
+      </div>
+      <div class="footer">
+        <a href="https://jeriwilaga.github.io/Portofolio/" target="_blank">&copy;Developer Production <strong>AGA</strong></a>
+      </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+   
+  </body>
+</html>
